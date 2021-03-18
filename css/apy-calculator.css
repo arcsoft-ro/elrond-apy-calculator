@@ -1,0 +1,46 @@
+body {
+	background: linear-gradient(180deg, rgba(67, 81, 163, 1) 0%, rgba(237, 20, 137, 1) 50%);
+	background-repeat: no-repeat;
+	color: #ffffff;
+	min-height: 100vh;
+}
+.header-logo {
+	width: 200px;
+}
+.var-label {
+	font-size: 1.3rem;
+}
+.var-label-md {
+	font-size: 1.2rem;
+}
+.var-value {
+	font-size: 1.3rem;
+}
+.card.arc {
+	background-color: #4351A3 !important;
+	-webkit-box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.5);
+	-moz-box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.5);
+	box-shadow: 10px 10px 20px 5px rgba(0, 0, 0, 0.5);
+	opacity: 0.9;
+	min-width: 250px;
+	min-height: 150px;
+}
+.card.arc.wide {
+	min-width: 350px !important;
+}
+.card.arc .card-header {
+	font-size: 1.3rem;
+	font-weight: 600;
+}
+.slider.slider-horizontal {
+	width: 100% !important;
+	margin-top: 0.9rem;
+}
+.tooltip-inner {
+	background-color: #4351A3 !important;
+}
+.bs-tooltip-top .arrow::before, .bs-tooltip-auto[x-placement^="top"] .arrow::before {
+	top: 0;
+	border-width: 0.4rem 0.4rem 0;
+	border-top-color: #4351A3;
+}
