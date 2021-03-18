@@ -11,6 +11,7 @@ $(document).ready(function () {
 	});
 
 	arcstake.netTotalStakeSlider.on("change", function () {
+		arcstake.intToLocaleEgld("#netTotalStake", "#netTotalStakeVal");
 		var apyVariables = arcstake.readVariables();
 		arcstake.computeAPY(apyVariables);
 	});
@@ -44,8 +45,6 @@ $(document).ready(function () {
 	arcstake.computeAPY(apyVariables);
 
 	$(".apy-variable").change(function () {
-		arcstake.intToLocaleEgld("#netTotalStake", "#netTotalStakeVal");
-		arcstake.intToLocaleEgld("#userStake", "#userStakeVal")
 		var apyVariables = arcstake.readVariables();
 		arcstake.computeAPY(apyVariables);
 	});
